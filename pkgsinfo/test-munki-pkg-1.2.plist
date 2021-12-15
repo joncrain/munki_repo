@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>runner</string>
+		<key>creation_date</key>
+		<date>2021-06-02T20:15:10Z</date>
+		<key>munki_version</key>
+		<string>5.2.3.4295</string>
+		<key>os_version</key>
+		<string>10.15.7</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>test</string>
+	</array>
+	<key>description</key>
+	<string>This package does not do anything.</string>
+	<key>developer</key>
+	<string>Jon Crain</string>
+	<key>display_name</key>
+	<string>test-munki-pkg</string>
+	<key>installed_size</key>
+	<integer>1</integer>
+	<key>installer_item_hash</key>
+	<string>e9f3f9446944329f7a3af270718b9c85a20b3bd12f83d1f55f629df8e8d6f893</string>
+	<key>installer_item_location</key>
+	<string>test-munki-pkg-1.2.pkg</string>
+	<key>installer_item_size</key>
+	<integer>1</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>test-munki-pkg</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>1</integer>
+			<key>packageid</key>
+			<string>com.github.munki.pkg.test-munki-pkg</string>
+			<key>version</key>
+			<string>1.2</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.2</string>
+</dict>
+</plist>
