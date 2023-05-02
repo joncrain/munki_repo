@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>runner</string>
+		<key>creation_date</key>
+		<date>2023-05-02T18:51:58Z</date>
+		<key>munki_version</key>
+		<string>6.2.1.4545</string>
+		<key>os_version</key>
+		<string>12.6.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>blocking_applications</key>
+	<array>
+		<string>Microsoft Edge</string>
+		<string>Microsoft Error Reporting</string>
+		<string>Microsoft AutoUpdate</string>
+	</array>
+	<key>catalogs</key>
+	<array>
+		<string>test</string>
+	</array>
+	<key>category</key>
+	<string>Web Browsers</string>
+	<key>description</key>
+	<string>Microsoft's Chromium-based browser</string>
+	<key>developer</key>
+	<string>Microsoft</string>
+	<key>display_name</key>
+	<string>Microsoft Edge</string>
+	<key>installed_size</key>
+	<integer>769699</integer>
+	<key>installer_item_hash</key>
+	<string>c44c2e8a56935d59aecd387d5175bc2681134e53ff6701fd2d6019ba46e8b22a</string>
+	<key>installer_item_location</key>
+	<string>MicrosoftEdge-112.1722.23043068-112.0.1722.68.pkg</string>
+	<key>installer_item_size</key>
+	<integer>330638</integer>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleVersion</key>
+			<string>112.1722.23043068</string>
+			<key>path</key>
+			<string>/Applications/Microsoft Edge.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.13</string>
+	<key>name</key>
+	<string>MicrosoftEdge</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>769699</integer>
+			<key>packageid</key>
+			<string>com.microsoft.edgemac</string>
+			<key>version</key>
+			<string>112.0.1722.68</string>
+		</dict>
+	</array>
+	<key>unattended_install</key>
+	<true/>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>112.0.1722.68</string>
+</dict>
+</plist>
